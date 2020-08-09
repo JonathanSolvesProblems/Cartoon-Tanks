@@ -24,5 +24,20 @@ APawnBase::APawnBase()
 
 }
 
+void APawnBase::RotateTurretFunction(FVector LookAtTarget)
+{
+	// update turretmesh rotation to face towards the lokattarget passed in from child classes.
+	// turrestmesh->setworldrotation()
+}
+
+void APawnBase::Fire()
+{
+	// gte profectilespawnpoint location && rotation -> spawn projectile class at location firing towards rotation.
+}
+
+void APawnBase::HandleDestruction()
+{
+	// play particle effects.
+}
 
 
