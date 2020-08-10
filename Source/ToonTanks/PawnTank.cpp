@@ -27,6 +27,7 @@ void APawnTank::HandleDestruction()
 {
     Super::HandleDestruction();
     // TODO: Create another function to handle this.
+    Destroy();
 }
 
 // Called every frame
