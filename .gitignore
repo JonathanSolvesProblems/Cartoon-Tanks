@@ -1,5 +1,9 @@
 # Visual Studio Code
 .vscode
+
+# Game play
+.CarToon_Tanks_Game
+
 *.code-workspace
 
 # Visual Studio 2015 user specific files
